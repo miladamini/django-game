@@ -1,0 +1,1122 @@
+{% extends 'base.html' %}{% load static %}
+{% block title %}
+    <title>akoroman | آکو رمان</title>
+{% endblock title %}
+{% block home %}
+    <div class="rn-breadcrumb-inner ptb--30">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h5 class="title text-center text-md-end">جزئیات محصول</h5>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-list">
+                        <li class="item"><a href="index.html">خانه</a></li>
+                        <li class="separator"><i class="feather-chevron-left"></i></li>
+                        <li class="item current">جزئیات محصول</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-details-area rn-section-gapTop">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <div class="product-tab-wrapper rbt-sticky-top-adjust">
+                        <div class="pd-tab-inner">
+                            <div class="nav rn-pd-nav rn-pd-rt-content nav-pills" id="v-pills-tab" role="tablist"
+                                 aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-home" type="button" role="tab"
+                                        aria-controls="v-pills-home"
+                                        aria-selected="true">
+<span class="rn-pd-sm-thumbnail">
+<img src="assets/images/portfolio/sm/portfolio-01.jpg" alt="Nft_Profile">
+</span>
+                                </button>
+                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-profile" type="button" role="tab"
+                                        aria-controls="v-pills-profile" aria-selected="false">
+<span class="rn-pd-sm-thumbnail">
+<img src="assets/images/portfolio/sm/portfolio-02.jpg" alt="Nft_Profile">
+</span>
+                                </button>
+                                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-messages" type="button" role="tab"
+                                        aria-controls="v-pills-messages" aria-selected="false">
+<span class="rn-pd-sm-thumbnail">
+<img src="assets/images/portfolio/sm/portfolio-03.jpg" alt="Nft_Profile">
+</span>
+                                </button>
+                            </div>
+                            <div class="tab-content rn-pd-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                     aria-labelledby="v-pills-home-tab">
+                                    <div class="rn-pd-thumbnail">
+                                        <img src="assets/images/portfolio/lg/portfolio-01.jpg" alt="Nft_Profile">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                     aria-labelledby="v-pills-profile-tab">
+                                    <div class="rn-pd-thumbnail">
+                                        <img src="assets/images/portfolio/lg/portfolio-02.jpg" alt="Nft_Profile">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                     aria-labelledby="v-pills-messages-tab">
+                                    <div class="rn-pd-thumbnail">
+                                        <img src="assets/images/portfolio/lg/portfolio-03.jpg" alt="Nft_Profile">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-sm-12 mt_md--50 mt_sm--60">
+                    <div class="rn-pd-content-area">
+                        <div class="pd-title-area">
+                            <h4 class="title">یک بازی عالی</h4>
+                            <div class="pd-react-area">
+                                <div class="heart-count">
+                                    <i data-feather="heart"></i>
+                                    <span>33</span>
+                                </div>
+                                <div class="count">
+                                    <div class="share-btn share-btn-activation dropdown">
+                                        <button class="icon" type="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                            <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                                 class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                                      fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                        <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                            <button type="button" class="btn-setting-text share-text"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#shareModal">
+                                                اشتراک گذاری
+                                            </button>
+                                            <button type="button" class="btn-setting-text report-text"
+                                                    data-bs-toggle="modal" data-bs-target="#reportModal">
+                                                گزارش
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="bid">بالاترین پیشنهاد <span class="price">0.11wETH</span></span>
+                        <h6 class="title-name">
+                            پورتال شماره 22، اطلاعات زیر
+                        </h6>
+                        <div class="catagory-collection">
+                            <div class="catagory">
+<span>دسته بندی <span class="color-body">
+10% وفاداری</span></span>
+                                <div class="top-seller-inner-one">
+                                    <div class="top-seller-wrapper">
+                                        <div class="thumbnail">
+                                            <a href="#"><img src="assets/images/client/client-1.png" alt="Nft_Profile"></a>
+                                        </div>
+                                        <div class="top-seller-content">
+                                            <a href="#">
+                                                <h6 class="name">مجید</h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collection">
+                                <span>مجموعه</span>
+                                <div class="top-seller-inner-one">
+                                    <div class="top-seller-wrapper">
+                                        <div class="thumbnail">
+                                            <a href="#"><img src="assets/images/client/client-2.png" alt="Nft_Profile"></a>
+                                        </div>
+                                        <div class="top-seller-content">
+                                            <a href="#">
+                                                <h6 class="name">مجید</h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary-alta" href="#">محتوای بازگشایی گنجانده شده است</a>
+                        <div class="rn-bid-details">
+                            <div class="tab-wrapper-one">
+                                <nav class="tab-button-one">
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab"
+                                                data-bs-target="#nav-home" type="button" role="tab"
+                                                aria-controls="nav-home"
+                                                aria-selected="false">پیشنهاد ها
+                                        </button>
+                                        <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab"
+                                                data-bs-target="#nav-profile" type="button" role="tab"
+                                                aria-controls="nav-profile" aria-selected="true">جزئیات
+                                        </button>
+                                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                                data-bs-target="#nav-contact" type="button" role="tab"
+                                                aria-controls="nav-contact" aria-selected="false">تاریخچه
+                                        </button>
+                                    </div>
+                                </nav>
+                                <div class="tab-content rn-bid-content" id="nav-tabContent">
+                                    <div class="tab-pane fade" id="nav-home" role="tabpanel"
+                                         aria-labelledby="nav-home-tab">
+
+                                        <div class="top-seller-inner-one">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-3.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.11wETH توسط <a href="#">آرون والکر</a></span>
+                                                    <span class="count-number">
+1 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-4.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.09wETH توسط <a href="#">جو بایدن</a></span>
+                                                    <span class="count-number">
+1.30 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-5.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.07wETH توسط <a href="#">مایکل جکسون</a></span>
+                                                    <span class="count-number">
+1.35 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-6.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.07wETH توسط <a href="#">علی کریمی</a></span>
+                                                    <span class="count-number">
+1.55 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-7.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.07wETH توسط <a href="#">وریا غفوری</a></span>
+                                                    <span class="count-number">
+2 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-8.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.02wETH توسط <a href="#">تونی کروس</a></span>
+                                                    <span class="count-number">
+2.5 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade show active" id="nav-profile" role="tabpanel"
+                                         aria-labelledby="nav-profile-tab">
+
+                                        <div class="rn-pd-bd-wrapper">
+                                            <div class="top-seller-inner-one">
+
+                                                <h6 class="name-title">
+                                                    صاحب
+                                                </h6>
+                                                <div class="top-seller-wrapper">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/client-1.png"
+                                                                         alt="Nft_Profile"></a>
+                                                    </div>
+                                                    <div class="top-seller-content">
+                                                        <a href="#">
+                                                            <h6 class="name">مجید</h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rn-pd-sm-property-wrapper">
+                                                <h6 class="pd-property-title">
+                                                    جزئیات
+                                                </h6>
+                                                <div class="property-wrapper">
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">HYPE TYPE</span>
+                                                        <span class="color-white value">CALM AF (STILL)</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">BASTARDNESS</span>
+                                                        <span class="color-white value">C00LIO BASTARD</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">TYPE</span>
+                                                        <span class="color-white value">APE</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">ASTARDNESS</span>
+                                                        <span class="color-white value">BASTARD</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">BAD HABIT(S)</span>
+                                                        <span class="color-white value">PIPE</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">BID</span>
+                                                        <span class="color-white value">BPEYti</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">ASTRAGENAKAR</span>
+                                                        <span class="color-white value">BASTARD</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">CITY</span>
+                                                        <span class="color-white value">TOKYO</span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="rn-pd-sm-property-wrapper">
+                                                <h6 class="pd-property-title">
+                                                    دسته بندی
+                                                </h6>
+                                                <div class="catagory-wrapper">
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">ZARY</span>
+                                                        <span class="color-white value">APP</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">SOMALIAN</span>
+                                                        <span class="color-white value">TRIBUTE</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">TUNA</span>
+                                                        <span class="color-white value">PIPE</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">BID</span>
+                                                        <span class="color-white value">BPEYti</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">ASTRAGENAKAR</span>
+                                                        <span class="color-white value">BASTARD</span>
+                                                    </div>
+
+
+                                                    <div class="pd-property-inner">
+                                                        <span class="color-body type">CITY</span>
+                                                        <span class="color-white value">TOKYO</span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                         aria-labelledby="nav-contact-tab">
+
+                                        <div class="top-seller-inner-one">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-3.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
+                                                    <span class="count-number">
+1 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one mt--20">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-2.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
+                                                    <span class="count-number">
+1 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one mt--20">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-4.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
+                                                    <span class="count-number">
+1 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one mt--20">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-5.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
+                                                    <span class="count-number">
+1 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="top-seller-inner-one mt--20">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-8.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
+                                                    <span class="count-number">
+1 ساعت پیش
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="place-bet-area">
+                                <div class="rn-bet-create">
+                                    <div class="bid-list winning-bid">
+                                        <h6 class="title">پیشنهاد برنده</h6>
+                                        <div class="top-seller-inner-one">
+                                            <div class="top-seller-wrapper">
+                                                <div class="thumbnail">
+                                                    <a href="#"><img src="assets/images/client/client-7.png"
+                                                                     alt="Nft_Profile"></a>
+                                                </div>
+                                                <div class="top-seller-content">
+<span class="heighest-bid">بالاترین پیشنهاد <a href="#">
+حامد کرزی
+</a></span>
+                                                    <span class="count-number">
+0.115wETH
+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bid-list left-bid">
+                                        <h6 class="title">حراج تمام شد</h6>
+                                        <div class="countdown mt--15" data-date="2025-12-09">
+                                            <div class="countdown-container days">
+                                                <span class="countdown-value">87</span>
+                                                <span class="countdown-heading">روز</span>
+                                            </div>
+                                            <div class="countdown-container hours">
+                                                <span class="countdown-value">23</span>
+                                                <span class="countdown-heading">ساعت</span>
+                                            </div>
+                                            <div class="countdown-container minutes">
+                                                <span class="countdown-value">38</span>
+                                                <span class="countdown-heading">دقیقه</span>
+                                            </div>
+                                            <div class="countdown-container seconds">
+                                                <span class="countdown-value">27</span>
+                                                <span class="countdown-heading">ثانیه</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn btn-primary-alta mt--30" data-bs-toggle="modal"
+                                        data-bs-target="#placebidModal">ثبت پیشنهاد
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="rn-new-items rn-section-gapTop">
+        <div class="container">
+            <div class="row mb--30 align-items-center">
+                <div class="col-12">
+                    <h3 class="title mb--0" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">بازدید
+                        اخیر</h3>
+                </div>
+            </div>
+            <div class="row g-5">
+
+                <div data-sal="slide-up" data-sal-delay="150" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-01.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-1.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان دویی"><img
+                                        src="assets/images/client/client-2.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="نیوشا"><img
+                                        src="assets/images/client/client-3.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">9+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">پیش ادعا</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 1/20</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.244wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">322</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-sal="slide-up" data-sal-delay="200" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-02.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-4.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="نینا"><img
+                                        src="assets/images/client/client-5.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="لیندا کیانی"><img
+                                        src="assets/images/client/client-6.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">10+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">سگ الماس</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 5/11</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.892wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">420</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-sal="slide-up" data-sal-delay="250" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-03.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-1.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جاستینا"><img
+                                        src="assets/images/client/client-8.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="نیوشا"><img
+                                        src="assets/images/client/client-9.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">10+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">دست شیشه</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 2/31</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.2128wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-sal="slide-up" data-sal-delay="300" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-04.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-1.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-3.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-5.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">8+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">مورگان11</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 3/16</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.265wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-https://t.me/sabzrea ->
+
+                <div data-sal="slide-up" data-sal-delay="350" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-05.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-2.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-7.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-9.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">15+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">اطلس</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 6/50</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.244wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">205</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="rn-new-items rn-section-gapTop">
+        <div class="container">
+            <div class="row mb--30 align-items-center">
+                <div class="col-12">
+                    <h3 class="title mb--0" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">موارد
+                        مرتبط</h3>
+                </div>
+            </div>
+            <div class="row g-5">
+
+                <div data-sal="slide-up" data-sal-delay="150" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-01.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-1.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان دویی"><img
+                                        src="assets/images/client/client-2.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="نیوشا"><img
+                                        src="assets/images/client/client-3.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">9+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">پیش ادعا</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 1/20</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.244wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">322</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-sal="slide-up" data-sal-delay="200" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-02.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-4.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="نینا"><img
+                                        src="assets/images/client/client-5.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="لیندا کیانی"><img
+                                        src="assets/images/client/client-6.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">10+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">سگ الماس</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 5/11</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.892wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">420</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-sal="slide-up" data-sal-delay="250" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-03.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-1.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جاستینا"><img
+                                        src="assets/images/client/client-8.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="نیوشا"><img
+                                        src="assets/images/client/client-9.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">10+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">دست شیشه</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 2/31</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.2128wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-sal="slide-up" data-sal-delay="300" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-04.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-1.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-3.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-5.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">8+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">مورگان11</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 3/16</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.265wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-sal="slide-up" data-sal-delay="350" data-sal-duration="800"
+                     class="col-5 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="product-style-one no-overlay">
+                        <div class="card-thumbnail">
+                            <a href="product-details.html"><img src="assets/images/portfolio/portfolio-05.jpg"
+                                                                alt="NFT_portfolio"></a>
+                        </div>
+                        <div class="product-share-wrapper">
+                            <div class="profile-share">
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-2.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-7.png" alt="Nft_Profile"></a>
+                                <a href="author.html" class="avatar" data-tooltip="جان لی"><img
+                                        src="assets/images/client/client-9.png" alt="Nft_Profile"></a>
+                                <a class="more-author-text" href="#">15+ درخواست</a>
+                            </div>
+                            <div class="share-btn share-btn-activation dropdown">
+                                <button class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg viewbox="0 0 14 4" fill="none" width="16" height="16"
+                                         class="sc-bdnxRM sc-hKFxyN hOiKLt">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M3.5 2C3.5 2.82843 2.82843 3.5 2 3.5C1.17157 3.5 0.5 2.82843 0.5 2C0.5 1.17157 1.17157 0.5 2 0.5C2.82843 0.5 3.5 1.17157 3.5 2ZM8.5 2C8.5 2.82843 7.82843 3.5 7 3.5C6.17157 3.5 5.5 2.82843 5.5 2C5.5 1.17157 6.17157 0.5 7 0.5C7.82843 0.5 8.5 1.17157 8.5 2ZM11.999 3.5C12.8274 3.5 13.499 2.82843 13.499 2C13.499 1.17157 12.8274 0.5 11.999 0.5C11.1706 0.5 10.499 1.17157 10.499 2C10.499 2.82843 11.1706 3.5 11.999 3.5Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                                <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                    <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal"
+                                            data-bs-target="#shareModal">
+                                        اشتراک گذاری
+                                    </button>
+                                    <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal"
+                                            data-bs-target="#reportModal">
+                                        گزارش
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="product-details.html"><span class="product-name">اطلس</span></a>
+                        <span class="latest-bid">بالاترین پیشنهاد 6/50</span>
+                        <div class="bid-react-area">
+                            <div class="last-bid">0.244wETH</div>
+                            <div class="react-area">
+                                <svg viewbox="0 0 17 16" fill="none" width="16" height="16"
+                                     class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                    <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
+                                          stroke="currentColor" stroke-width="2"></path>
+                                </svg>
+                                <span class="number">205</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock home %}
+
+
+
+
+
+
