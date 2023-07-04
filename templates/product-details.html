@@ -35,21 +35,21 @@
                                         aria-controls="v-pills-home"
                                         aria-selected="true">
                                         <span class="rn-pd-sm-thumbnail">
-                                        <img src="{% static 'images/portfolio/sm/portfolio-01.jpg' %}" alt="Nft_Profile">
+                                        <img src="{{ ditails.img1 }}" alt="Nft_Profile">
                                         </span>
                                 </button>
                                 <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                                         data-bs-target="#v-pills-profile" type="button" role="tab"
                                         aria-controls="v-pills-profile" aria-selected="false">
                                         <span class="rn-pd-sm-thumbnail">
-                                        <img src="{% static 'images/portfolio/sm/portfolio-02.jpg' %}" alt="Nft_Profile">
+                                        <img src="{{ ditails.img2 }}" alt="Nft_Profile">
                                         </span>
                                 </button>
                                 <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
                                         data-bs-target="#v-pills-messages" type="button" role="tab"
                                         aria-controls="v-pills-messages" aria-selected="false">
                                         <span class="rn-pd-sm-thumbnail">
-                                        <img src="{% static 'images/portfolio/sm/portfolio-03.jpg' %}" alt="Nft_Profile">
+                                        <img src="{{ ditails.img3 }}" alt="Nft_Profile">
                                         </span>
                                 </button>
                             </div>
@@ -57,19 +57,21 @@
                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                                      aria-labelledby="v-pills-home-tab">
                                     <div class="rn-pd-thumbnail">
-                                        <img src="{% static 'images/portfolio/sm/portfolio-01.jpg' %}" alt="Nft_Profile">
+                                        <video style="height: 300px"
+                                               src="{{ ditails.film }}"
+                                               controls></video>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                                      aria-labelledby="v-pills-profile-tab">
                                     <div class="rn-pd-thumbnail">
-                                        <img src="{% static 'images/portfolio/sm/portfolio-02.jpg' %}" alt="Nft_Profile">
+                                        <img src="{{ ditails.img2 }}" alt="Nft_Profile">
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                                      aria-labelledby="v-pills-messages-tab">
                                     <div class="rn-pd-thumbnail">
-                                        <img src="{% static 'images/portfolio/sm/portfolio-03.jpg' %}" alt="Nft_Profile">
+                                        <img src="{{ ditails.img1 }}" alt="Nft_Profile">
                                     </div>
                                 </div>
                             </div>
@@ -112,427 +114,61 @@
                                 </div>
                             </div>
                         </div>
-                        <span class="bid">بالاترین پیشنهاد <span class="price">0.11wETH</span></span>
-                        <h6 class="title-name">
-                            پورتال شماره 22، اطلاعات زیر
-                        </h6>
-                        <div class="catagory-collection">
-                            <div class="catagory">
-<span>دسته بندی <span class="color-body">
-10% وفاداری</span></span>
-                                <div class="top-seller-inner-one">
-                                    <div class="top-seller-wrapper">
-                                        <div class="thumbnail">
-                                            <a href="#"><img src="assets/images/client/client-1.png" alt="Nft_Profile"></a>
-                                        </div>
-                                        <div class="top-seller-content">
-                                            <a href="#">
-                                                <h6 class="name">مجید</h6>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="collection">
-                                <span>مجموعه</span>
-                                <div class="top-seller-inner-one">
-                                    <div class="top-seller-wrapper">
-                                        <div class="thumbnail">
-                                            <a href="#"><img src="assets/images/client/client-2.png" alt="Nft_Profile"></a>
-                                        </div>
-                                        <div class="top-seller-content">
-                                            <a href="#">
-                                                <h6 class="name">مجید</h6>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="btn btn-primary-alta" href="#">محتوای بازگشایی گنجانده شده است</a>
-                        <div class="rn-bid-details">
-                            <div class="tab-wrapper-one">
-                                <nav class="tab-button-one">
-                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab"
-                                                data-bs-target="#nav-home" type="button" role="tab"
-                                                aria-controls="nav-home"
-                                                aria-selected="false">پیشنهاد ها
-                                        </button>
-                                        <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab"
-                                                data-bs-target="#nav-profile" type="button" role="tab"
-                                                aria-controls="nav-profile" aria-selected="true">جزئیات
-                                        </button>
-                                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
-                                                data-bs-target="#nav-contact" type="button" role="tab"
-                                                aria-controls="nav-contact" aria-selected="false">تاریخچه
-                                        </button>
-                                    </div>
-                                </nav>
-                                <div class="tab-content rn-bid-content" id="nav-tabContent">
-                                    <div class="tab-pane fade" id="nav-home" role="tabpanel"
-                                         aria-labelledby="nav-home-tab">
-
-                                        <div class="top-seller-inner-one">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-3.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.11wETH توسط <a href="#">آرون والکر</a></span>
-                                                    <span class="count-number">
-1 ساعت پیش
-</span>
-                                                </div>
+                        <h2 class="bid">بالاترین پیشنهاد <span class="price">0.11wETH</span></h2>
+                        <p>{{ ditails.body |safe }}</p>
+                        <div class="place-bet-area">
+                            <div class="rn-bet-create">
+                                <div class="bid-list winning-bid">
+                                    <h6 class="title">پیشنهاد برنده</h6>
+                                    <div class="top-seller-inner-one">
+                                        <div class="top-seller-wrapper">
+                                            <div class="thumbnail">
+                                                <a href="#"><img src="assets/images/client/client-7.png"
+                                                                 alt="Nft_Profile"></a>
                                             </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-4.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.09wETH توسط <a href="#">جو بایدن</a></span>
-                                                    <span class="count-number">
-1.30 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-5.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.07wETH توسط <a href="#">مایکل جکسون</a></span>
-                                                    <span class="count-number">
-1.35 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-6.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.07wETH توسط <a href="#">علی کریمی</a></span>
-                                                    <span class="count-number">
-1.55 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-7.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.07wETH توسط <a href="#">وریا غفوری</a></span>
-                                                    <span class="count-number">
-2 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-8.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.02wETH توسط <a href="#">تونی کروس</a></span>
-                                                    <span class="count-number">
-2.5 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="tab-pane fade show active" id="nav-profile" role="tabpanel"
-                                         aria-labelledby="nav-profile-tab">
-
-                                        <div class="rn-pd-bd-wrapper">
-                                            <div class="top-seller-inner-one">
-
-                                                <h6 class="name-title">
-                                                    صاحب
-                                                </h6>
-                                                <div class="top-seller-wrapper">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/client-1.png"
-                                                                         alt="Nft_Profile"></a>
-                                                    </div>
-                                                    <div class="top-seller-content">
-                                                        <a href="#">
-                                                            <h6 class="name">مجید</h6>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="rn-pd-sm-property-wrapper">
-                                                <h6 class="pd-property-title">
-                                                    جزئیات
-                                                </h6>
-                                                <div class="property-wrapper">
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">HYPE TYPE</span>
-                                                        <span class="color-white value">CALM AF (STILL)</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">BASTARDNESS</span>
-                                                        <span class="color-white value">C00LIO BASTARD</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">TYPE</span>
-                                                        <span class="color-white value">APE</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">ASTARDNESS</span>
-                                                        <span class="color-white value">BASTARD</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">BAD HABIT(S)</span>
-                                                        <span class="color-white value">PIPE</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">BID</span>
-                                                        <span class="color-white value">BPEYti</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">ASTRAGENAKAR</span>
-                                                        <span class="color-white value">BASTARD</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">CITY</span>
-                                                        <span class="color-white value">TOKYO</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-
-                                            <div class="rn-pd-sm-property-wrapper">
-                                                <h6 class="pd-property-title">
-                                                    دسته بندی
-                                                </h6>
-                                                <div class="catagory-wrapper">
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">ZARY</span>
-                                                        <span class="color-white value">APP</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">SOMALIAN</span>
-                                                        <span class="color-white value">TRIBUTE</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">TUNA</span>
-                                                        <span class="color-white value">PIPE</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">BID</span>
-                                                        <span class="color-white value">BPEYti</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">ASTRAGENAKAR</span>
-                                                        <span class="color-white value">BASTARD</span>
-                                                    </div>
-
-
-                                                    <div class="pd-property-inner">
-                                                        <span class="color-body type">CITY</span>
-                                                        <span class="color-white value">TOKYO</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel"
-                                         aria-labelledby="nav-contact-tab">
-
-                                        <div class="top-seller-inner-one">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-3.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
-                                                    <span class="count-number">
-1 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one mt--20">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-2.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
-                                                    <span class="count-number">
-1 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one mt--20">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-4.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
-                                                    <span class="count-number">
-1 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one mt--20">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-5.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
-                                                    <span class="count-number">
-1 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="top-seller-inner-one mt--20">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-8.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
-                                                    <span>0.11wETH توسط<a href="#">سعید پاتریک</a></span>
-                                                    <span class="count-number">
-1 ساعت پیش
-</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="place-bet-area">
-                                <div class="rn-bet-create">
-                                    <div class="bid-list winning-bid">
-                                        <h6 class="title">پیشنهاد برنده</h6>
-                                        <div class="top-seller-inner-one">
-                                            <div class="top-seller-wrapper">
-                                                <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/client/client-7.png"
-                                                                     alt="Nft_Profile"></a>
-                                                </div>
-                                                <div class="top-seller-content">
+                                            <div class="top-seller-content">
 <span class="heighest-bid">بالاترین پیشنهاد <a href="#">
 حامد کرزی
 </a></span>
-                                                    <span class="count-number">
+                                                <span class="count-number">
 0.115wETH
 </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="bid-list left-bid">
-                                        <h6 class="title">حراج تمام شد</h6>
-                                        <div class="countdown mt--15" data-date="2025-12-09">
-                                            <div class="countdown-container days">
-                                                <span class="countdown-value">87</span>
-                                                <span class="countdown-heading">روز</span>
-                                            </div>
-                                            <div class="countdown-container hours">
-                                                <span class="countdown-value">23</span>
-                                                <span class="countdown-heading">ساعت</span>
-                                            </div>
-                                            <div class="countdown-container minutes">
-                                                <span class="countdown-value">38</span>
-                                                <span class="countdown-heading">دقیقه</span>
-                                            </div>
-                                            <div class="countdown-container seconds">
-                                                <span class="countdown-value">27</span>
-                                                <span class="countdown-heading">ثانیه</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <button type="button" class="btn btn-primary-alta mt--30" data-bs-toggle="modal"
-                                        data-bs-target="#placebidModal">ثبت پیشنهاد
-                                </button>
+                                <div class="bid-list left-bid">
+                                    <h6 class="title">حراج تمام شد</h6>
+                                    <div class="countdown mt--15" data-date="2025-12-09">
+                                        <div class="countdown-container days">
+                                            <span class="countdown-value">87</span>
+                                            <span class="countdown-heading">روز</span>
+                                        </div>
+                                        <div class="countdown-container hours">
+                                            <span class="countdown-value">23</span>
+                                            <span class="countdown-heading">ساعت</span>
+                                        </div>
+                                        <div class="countdown-container minutes">
+                                            <span class="countdown-value">38</span>
+                                            <span class="countdown-heading">دقیقه</span>
+                                        </div>
+                                        <div class="countdown-container seconds">
+                                            <span class="countdown-value">27</span>
+                                            <span class="countdown-heading">ثانیه</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+                            <button type="button" class="btn btn-primary-alta mt--30" data-bs-toggle="modal"
+                                    data-bs-target="#placebidModal">ثبت پیشنهاد
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 

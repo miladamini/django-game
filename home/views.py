@@ -20,4 +20,4 @@ class HomeView(View):
 class homeditaile(View):
     def get(self, request, slug):
         ditails = lDitaile.objects.filter(slug=slug).first()
-        return render(request, 'product-details.html')
+        return render(request, 'product-details.html', {'ditails': ditails})
