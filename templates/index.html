@@ -48,7 +48,7 @@
                             <div class="single-slide-product">
                                 <div class="product-style-one">
                                     <div class="card-thumbnail">
-                                        <a href="product-details.html"><img
+                                        <a href="{% url 'homeditail' foo.slug %}"><img
                                                 style="height: 300px"
                                                 src="{{ foo.img1 }}"
                                                 alt="{{ foo.alt }}"></a>
@@ -76,7 +76,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="product-details.html"><span
+                                    <a href="{% url 'homeditail' foo.slug %}"><span
                                             class="product-name">{{ foo.title }}</span></a>
                                     <span class="latest-bid">قیمت {{ foo.Money }}</span>
                                     <div class="bid-react-area">

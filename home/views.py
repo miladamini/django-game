@@ -15,3 +15,9 @@ class HomeView(View):
         blogquery = blogMolde.objects.all().reverse()[:4]
         return render(request, 'index.html',
                       {'game': game, 'like': like, 'gameModeFilteer': gameModeFilteer, 'blogquery': blogquery})
+
+
+class homeditaile(View):
+    def get(self, request, slug):
+        ditails = lDitaile.objects.filter(slug=slug).first()
+        return render(request, 'product-details.html')
